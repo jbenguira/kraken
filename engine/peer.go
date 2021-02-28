@@ -17,8 +17,8 @@ import (
 
 const (
 	peerTrackClosedId          = "CLOSED"
-	peerTrackConnectionTimeout = 10 * time.Second
-	peerTrackReadTimeout       = 30 * time.Second
+	peerTrackConnectionTimeout = 3 * time.Second
+	peerTrackReadTimeout       = 5 * time.Second
 	rtpBufferSize              = 65536
 	rtpClockRate               = 48000
 	rtpPacketSequenceMax       = ^uint16(0)

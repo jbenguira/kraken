@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	engineStateLoopPeriod = 60 * time.Second
+	engineStateLoopPeriod = 1 * time.Second
 )
 
 type State struct {
