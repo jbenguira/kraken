@@ -19,7 +19,6 @@ type State struct {
 	ClosedPeers int       `json:"closed_peers"`
 	ActiveRooms int       `json:"active_rooms"`
 	ClosedRooms int       `json:"closed_rooms"`
-	Rooms       *rmap     `json:"rooms"`
 }
 
 type Engine struct {
